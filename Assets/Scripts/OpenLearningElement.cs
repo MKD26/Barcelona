@@ -37,6 +37,7 @@ public class OpenLearningElement : MonoBehaviour
             learningElement.SetActive(true);
             if (wurdeBearbeitet == false){
                 logikFuerLernraum.PunkteErhoehen(1);
+                wurdeBearbeitet = true ;
             }
             }
     }

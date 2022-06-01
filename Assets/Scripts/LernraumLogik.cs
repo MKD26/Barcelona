@@ -14,12 +14,13 @@ public class LernraumLogik : MonoBehaviour
     public OutlineEffect effectOfOutline;
     
     public TuerOeffnen eingangstuer_links;
-    public TuerOeffnen eingangstuer_rechts;
-    public TuerOeffnen ausgangstuer_links;
-    public TuerOeffnen ausgangstuer_rechts;
+    /* public TuerOeffnen eingangstuer_rechts;
+    public TuerOeffnen ausgangstuer_links;*/
+    public TuerOeffnen ausgangstuer_rechts; 
     
     public DialogZeilenWriter dialogZeile;
     public KopfleisteController kopfZeile;
+    public GameObject neueLernraumLogik;
 
     private float alphaOutline;
 
@@ -28,7 +29,11 @@ public class LernraumLogik : MonoBehaviour
     {
 
     }
-
+    void OnTriggerEnter() {
+        Debug.Log("Trigger ausgeführt");
+        neueLernraumLogik.SetActive(true);
+        gameObject.SetActive(false);
+    }
     // Update is called once per frame sadiasdhg
     void Update()
     {
@@ -38,26 +43,15 @@ public class LernraumLogik : MonoBehaviour
 
         kopfZeile.AenderePunktestand(startPunkte,maxPunkte);
 
-        switch(Mathf.Round(Time.fixedTime)) 
-        {
-            case 3: 
-                eingangstuer_links.zuOeffnen = true;
-                eingangstuer_rechts.zuOeffnen = true;
+          eingangstuer_links.zuOeffnen = true;
+                /* eingangstuer_rechts.zuOeffnen = true; */
                 dialogZeile.AndereDialogZeile(begruessungsText);
                 kopfZeile.AendereLernraumname(lernraumName);
-
-            break;
-
-            case 10:
-                eingangstuer_links.zuOeffnen = false;
-                eingangstuer_rechts.zuOeffnen = false;
-                dialogZeile.AndereDialogZeile(null);
-            break;
-        }
+      
 
         if (maxPunkte == startPunkte){
-                ausgangstuer_links.zuOeffnen = true;
-                ausgangstuer_rechts.zuOeffnen = true;
+                /* ausgangstuer_links.zuOeffnen = true; */
+                ausgangstuer_rechts.zuOeffnen = true; 
                 dialogZeile.AndereDialogZeile(abschlussText);
 
         }
