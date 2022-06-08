@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc00ebcd2bdc5f8449bb06150f696b5b, type: 3}
   m_Name: Frage 3
   m_EditorClassIdentifier: 
-  frage: Frage 3
-  antwort1: Eins
-  antwort2: 'Zwei '
-  antwort3: 'Drei '
-  antwort4: Vier
-  richtigeAntwort: 3
+  frage: 'Welcher paragraph wird selektiert? Unsere Tipp der Bibliothekarin lautet:
+    .drucker '
+  antwort1: DH
+  antwort2: KL
+  antwort3: GJZ
+  antwort4: TOR
+  richtigeAntwort: 4

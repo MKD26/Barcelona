@@ -32,12 +32,12 @@ RectTransform:
   m_Children:
   - {fileID: 3711504323935223652}
   m_Father: {fileID: 5196095726116518680}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -463.33685, y: -276}
-  m_SizeDelta: {x: 865.0696, y: 280.009}
+  m_AnchoredPosition: {x: 636.2699, y: -189}
+  m_SizeDelta: {x: 502.5303, y: 141.7931}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1011854854780412795
 CanvasRenderer:
@@ -153,12 +153,12 @@ RectTransform:
   m_Children:
   - {fileID: 418538349059241140}
   m_Father: {fileID: 5196095726116518680}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 472, y: -276}
-  m_SizeDelta: {x: 865.0696, y: 280.009}
+  m_AnchoredPosition: {x: 636.2699, y: -382}
+  m_SizeDelta: {x: 502.5303, y: 141.7931}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6639492449805381004
 CanvasRenderer:
@@ -242,6 +242,88 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &2389812686530633587
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1295531667774138174}
+  - component: {fileID: 7468166494853005467}
+  - component: {fileID: 3258347366825828517}
+  m_Layer: 5
+  m_Name: Code
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1295531667774138174
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2389812686530633587}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5196095726116518680}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -271.1457, y: -126.64416}
+  m_SizeDelta: {x: 1168.8802, y: 763.0762}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7468166494853005467
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2389812686530633587}
+  m_CullTransparentMesh: 1
+--- !u!114 &3258347366825828517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2389812686530633587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 50
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 75
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "<head>\r\n\t<style>\r\n\tp.adler { /* oder nur \".adler\" \u2013 kein
+    Leerzeichen! */\r\n\tcolor: blue;}\r\n\t</style>\r\n</head>\r\n<body>\r\n\t<p
+    class=\"adler\">SE</p>\r\n\t<p>MTH</p>\r\n\t<p class=\"warning\">ES</p>\r\n\t<p
+    class=\"abler\">THAB</p>\r\n</body>\r\n"
 --- !u!1 &3049922447744961246
 GameObject:
   m_ObjectHideFlags: 0
@@ -274,12 +356,12 @@ RectTransform:
   m_Children:
   - {fileID: 3360715164910995663}
   m_Father: {fileID: 5196095726116518680}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 473.73, y: 142.28534}
-  m_SizeDelta: {x: 865.0696, y: 280.009}
+  m_AnchoredPosition: {x: 636.2698, y: 0}
+  m_SizeDelta: {x: 502.5303, y: 141.7931}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6785237310684459651
 CanvasRenderer:
@@ -394,6 +476,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 730860373658234270}
+  - {fileID: 1295531667774138174}
   - {fileID: 4246683588647883814}
   - {fileID: 2762153068929596869}
   - {fileID: 1791344890527457646}
@@ -442,7 +525,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.85017896, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -537,7 +620,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Antwort 3
+  m_Text: ES
 --- !u!1 &6198465392354709077
 GameObject:
   m_ObjectHideFlags: 0
@@ -572,7 +655,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 429.32}
+  m_AnchoredPosition: {x: 0, y: 392}
   m_SizeDelta: {x: 1812.532, y: 201.581}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4957403081836199292
@@ -605,18 +688,21 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 50
+    m_FontSize: 75
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 5
-    m_MaxSize: 50
+    m_MaxSize: 75
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Frage
+  m_Text: 'Welcher Paragraph wird selektiert?
+
+    Der Tipp unserer Bibliothekarin
+    lautet .adler'
 --- !u!1 &6455523126383468517
 GameObject:
   m_ObjectHideFlags: 0
@@ -695,7 +781,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Antwort 2
+  m_Text: MTH
 --- !u!1 &7004117728223475087
 GameObject:
   m_ObjectHideFlags: 0
@@ -728,12 +814,12 @@ RectTransform:
   m_Children:
   - {fileID: 1934253002341471436}
   m_Father: {fileID: 5196095726116518680}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -461.60687, y: 142.28534}
-  m_SizeDelta: {x: 865.0696, y: 280.009}
+  m_AnchoredPosition: {x: 636.2699, y: 184}
+  m_SizeDelta: {x: 502.5303, y: 141.7931}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3127606068358405899
 CanvasRenderer:
@@ -895,7 +981,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Antwort 4
+  m_Text: THAB
 --- !u!1 &8983407895983300048
 GameObject:
   m_ObjectHideFlags: 0
@@ -974,4 +1060,4 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Antwort 1
+  m_Text: SE

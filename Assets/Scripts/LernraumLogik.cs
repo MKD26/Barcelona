@@ -27,7 +27,10 @@ public class LernraumLogik : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+ eingangstuer_links.zuOeffnen = true;
+                /* eingangstuer_rechts.zuOeffnen = true; */
+                dialogZeile.AndereDialogZeile(begruessungsText);
+                kopfZeile.AendereLernraumname(lernraumName);
     }
     void OnTriggerEnter() {
         Debug.Log("Trigger ausgeführt");
@@ -43,10 +46,7 @@ public class LernraumLogik : MonoBehaviour
 
         kopfZeile.AenderePunktestand(startPunkte,maxPunkte);
 
-          eingangstuer_links.zuOeffnen = true;
-                /* eingangstuer_rechts.zuOeffnen = true; */
-                dialogZeile.AndereDialogZeile(begruessungsText);
-                kopfZeile.AendereLernraumname(lernraumName);
+         
       
 
         if (maxPunkte == startPunkte){

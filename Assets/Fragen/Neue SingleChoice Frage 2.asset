@@ -10,12 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cc00ebcd2bdc5f8449bb06150f696b5b, type: 3}
-  m_Name: Frage 1
+  m_Name: Neue SingleChoice Frage 2
   m_EditorClassIdentifier: 
-  frage: Welcher Paragraph wird selektiert? Der Tipp unserer Bibliothekarin lautet
-    .adler
-  antwort1: SE
-  antwort2: MTH
-  antwort3: ES
-  antwort4: THAB
-  richtigeAntwort: 1
+  frage: 
+  antwort1: 
+  antwort2: 
+  antwort3: 
+  antwort4: 
+  richtigeAntwort: 0
