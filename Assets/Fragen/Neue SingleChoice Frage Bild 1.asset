@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Neue SingleChoice Frage Bild 1
   m_EditorClassIdentifier: 
   frage: Welcher Paragraph wird selektiert?
-  frageImage: {fileID: 2800000, guid: 0ddf15ffe79a44279b7835f35ede2682, type: 3}
+  frageImage: {fileID: 2800000, guid: 645e166e294a91c49a33f658ebf39037, type: 3}
   antwort1: DH
   antwort2: KL
   antwort3: GJZ

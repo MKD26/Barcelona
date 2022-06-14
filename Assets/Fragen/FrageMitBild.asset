@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: FrageMitBild
   m_EditorClassIdentifier: 
   frage: Welcher Paragraph wird selektiert?
-  frageImage: {fileID: 2800000, guid: de8b89c2365aa47379f71c0a919a3254, type: 3}
+  frageImage: {fileID: 2800000, guid: c12a45107787e724b9dc6b6dd4014cb1, type: 3}
   antwort1: SE
   antwort2: MTH
   antwort3: ES
