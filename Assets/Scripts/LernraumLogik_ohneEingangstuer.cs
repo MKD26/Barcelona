@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using cakeslice;
 
-public class LernraumLogik : MonoBehaviour
+public class LernraumLogik_ohneEingangstuer : MonoBehaviour
 {
     public string begruessungsText = "Herzlich Willkommen im Lernraum 1. Erkunden Sie die verschiedene Lernelemente und sammeln Sie Punkte um die Ausgangstür zu öffnen";
     public string lernraumName;
@@ -13,8 +13,6 @@ public class LernraumLogik : MonoBehaviour
     public string abschlussText = "Herzlichen Glückwunsch! Sie haben den Lernraum erfolgreich abgeschlossen";
     public OutlineEffect effectOfOutline;
     
-    
-    public TuerOeffnen eingangstuer_links;
     /* public TuerOeffnen eingangstuer_rechts;
     public TuerOeffnen ausgangstuer_links;*/
     public TuerOeffnen ausgangstuer_rechts; 
@@ -28,7 +26,6 @@ public class LernraumLogik : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
- eingangstuer_links.zuOeffnen = true;
                 /* eingangstuer_rechts.zuOeffnen = true; */
                 dialogZeile.AndereDialogZeile(begruessungsText);
                 kopfZeile.AendereLernraumname(lernraumName);
