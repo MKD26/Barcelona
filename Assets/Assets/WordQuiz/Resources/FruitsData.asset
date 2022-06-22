@@ -13,15 +13,9 @@ MonoBehaviour:
   m_Name: FruitsData
   m_EditorClassIdentifier: 
   questions:
-  - questionImage: {fileID: 21300000, guid: 074020e9bc4204e43b656e9c8d3554f4, type: 3}
-    answer: applepie
   - questionImage: {fileID: 21300000, guid: 8ec642dc95a697144b4012cdfa9b84e6, type: 3}
     answer: banana
   - questionImage: {fileID: 21300000, guid: 8556c2364b133d2498805e725aac49ef, type: 3}
     answer: cherry
   - questionImage: {fileID: 21300000, guid: 0c1fbe651e0e984478e950eab3e50305, type: 3}
     answer: lemon
-  - questionImage: {fileID: 21300000, guid: 6645a7ed04e10fb4ca319380046b78b2, type: 3}
-    answer: pear
-  - questionImage: {fileID: 21300000, guid: 07f937f1d4845214a8bceb355bde0410, type: 3}
-    answer: plum
