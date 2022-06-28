@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ee107bb00547394eac066de0de59007, type: 3}
   m_Name: Frage rotes Buch
   m_EditorClassIdentifier: 
-  frage: Selektiere das rote Buch in CSS.
-  frageImage: {fileID: 2800000, guid: 200a36c461d608142a8a11de01c014bd, type: 3}
-  antwort1: book.rot
-  antwort2: book#rot
-  antwort3: book
-  antwort4: book#ROT
+  frage: "Selektiere nur \u201CDas offene Buch.\u201D in CSS."
+  frageImage: {fileID: 2800000, guid: ab114dc378f401043ab0ae76b464667f, type: 3}
+  antwort1: p.offen
+  antwort2: p#offen
+  antwort3: p
+  antwort4: p#ofen
   richtigeAntwort: 2

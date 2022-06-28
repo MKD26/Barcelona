@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1ee107bb00547394eac066de0de59007, type: 3}
-  m_Name: Frage dreckige Tasse
+  m_Name: Frage Stifte
   m_EditorClassIdentifier: 
-  frage: Selektiere die dreckige Tasse in CSS.
-  frageImage: {fileID: 2800000, guid: 645e166e294a91c49a33f658ebf39037, type: 3}
-  antwort1: cup clean
-  antwort2: cup.dirty
-  antwort3: cup#dirty
-  antwort4: .dirty
-  richtigeAntwort: 3
+  frage: "Selektiere den \u201CStiftehalter auf dem Buch\u201D in CSS."
+  frageImage: {fileID: 2800000, guid: e91485bb727d19549bb87d0dcd807737, type: 3}
+  antwort1: p#halter
+  antwort2: p.buch
+  antwort3: '#stifte'
+  antwort4: '#p'
+  richtigeAntwort: 1

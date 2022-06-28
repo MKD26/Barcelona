@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Frage LEK
   m_EditorClassIdentifier: 
   frage: Welcher Paragraph wird selektiert?
-  frageImage: {fileID: 2800000, guid: 2e6fd6655433e644881dc346187a491f, type: 3}
+  frageImage: {fileID: 2800000, guid: 606bd1046a96c1b409f2911ed25f784c, type: 3}
   antwort1: MKD
   antwort2: HDK
   antwort3: LEK
