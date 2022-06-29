@@ -123,7 +123,7 @@ void AddListeners() {
 
             } else {
 
-                 yield return new WaitForSeconds (.5f);
+                 yield return new WaitForSeconds (2f);
 
                 btns [firstGuessIndex].image.sprite = bgImage;
                 btns [secondGuessIndex].image.sprite = bgImage;
