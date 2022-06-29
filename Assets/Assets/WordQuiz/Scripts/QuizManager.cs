@@ -23,7 +23,9 @@ public class QuizManager : MonoBehaviour
     private List<int> selectedWordsIndex;                   //list which keep track of option word index w.r.t answer word index
     private int currentAnswerIndex = 0, currentQuestionIndex = 0;   //index to keep track of current answer and current question
     private bool correctAnswer = true;                      //bool to decide if answer is correct or not
-    private string answerWord;                              //string to store answer of current question
+    private string answerWord;    
+    public LernraumLogik_ohneEingangstuer logik;
+    public OpenLearningElementohneEingangstuer bestanden;                          //string to store answer of current question
 
     private void Awake()
     {
@@ -147,6 +149,8 @@ public class QuizManager : MonoBehaviour
                 {
                     Debug.Log("Game Complete"); //else game is complete
                     gameComplete.SetActive(true);
+                   // logik.PunkteErhoehen(1);
+                    bestanden.BearbeitungLernelement(true);
                 }
             }
         }
