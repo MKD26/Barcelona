@@ -11,7 +11,7 @@ public class OpenLearningElement : MonoBehaviour
     public DialogZeilenWriter dialogZeile;
     private GameObject kamera;
     private Outline outLinerScript;
-    private string dialogzeilenText = "Oeffnen Sie das Lernelement mit der Taste R" ;
+    private string dialogzeilenText = "Aktiviere das Lernelement mit der Taste R" ;
     private bool wurdeBearbeitet = false;
 
 

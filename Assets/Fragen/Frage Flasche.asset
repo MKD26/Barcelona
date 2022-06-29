@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ee107bb00547394eac066de0de59007, type: 3}
   m_Name: Frage Flasche
   m_EditorClassIdentifier: 
-  frage: "Selektiere die nur die \u201CFlasche auf dem B\xFCcherstapel\u201D in CSS."
-  frageImage: {fileID: 2800000, guid: 9f4ffa631d1b94847b00310ac310abcb, type: 3}
+  frage: "Selektiere nur die \u201CFlasche auf dem B\xFCcherstapel.\u201D in CSS."
+  frageImage: {fileID: 2800000, guid: 7acb7a4c73822f547aa210180e5f21b4, type: 3}
   antwort1: p stapel
   antwort2: p#tisch
   antwort3: p.stapel

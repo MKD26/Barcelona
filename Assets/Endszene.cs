@@ -11,7 +11,7 @@ public class Endszene : MonoBehaviour
         
     }
     void OnTriggerEnter() {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(3);
     }
     
     // Update is called once per frame
