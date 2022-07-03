@@ -1080,8 +1080,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveSpeed: 2
   SprintSpeed: 5.335
-  RotationSmoothTime: 0.12
+  RotationSmoothTime: 0.0907
   SpeedChangeRate: 10
+  Sensitivity: 0.2
   JumpHeight: 1.2
   Gravity: -15
   JumpTimeout: 0.3
@@ -1096,7 +1097,7 @@ MonoBehaviour:
   TopClamp: 70
   BottomClamp: -30
   CameraAngleOverride: 0
-  LockCameraPosition: 0
+  LockCameraPosition: 1
 --- !u!114 &5885216827943657505
 MonoBehaviour:
   m_ObjectHideFlags: 0

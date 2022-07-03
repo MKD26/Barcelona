@@ -16494,12 +16494,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0233c0e58eed1ac448165dc409cdcda0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  begruessungsText: Willkommen im Lernraum zu IDs. Finde wieder zuerst das Buch.
+  begruessungsText: Willkommen im Lernraum zu IDs. Finde wieder zuerst das Buch und
+    im Anschluss den Computer!
   lernraumName: Lernraum zu ID
   startPunkte: 0
   maxPunkte: 2
-  abschlussText: "Super! Jetzt kennst Du Klassen und IDs. Teste dein Wissen nochmal
-    im n\xE4chsten Lernraum."
+  abschlussText: Super! Jetzt kennst Du CSS Klassen und IDs. Teste dein Wissen nochmal
+    im letzten Lernraum.
   effectOfOutline: {fileID: 1591683624}
   ausgangstuer_rechts: {fileID: 996861111}
   dialogZeile: {fileID: 1831813629}
@@ -46740,13 +46741,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0233c0e58eed1ac448165dc409cdcda0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  begruessungsText: "Jetzt bist du im dritten und letzten Lernraum. Finde die 2 Spiele,
-    dann geht es schon bald zur Gl\xFChweinh\xFCtte!"
+  begruessungsText: "Suche die letzen beiden Spiele, dann geht es f\xFCr dich schon
+    zur Gl\xFChweinh\xFCtte!"
   lernraumName: 'CSS Selektoren: Klassen und ID'
   startPunkte: 0
   maxPunkte: 2
-  abschlussText: "Herzlichen Gl\xFCckwunsch. Du hast es geschafft. Jetzt kannst Du
-    zur Gl\xFChweinh\xFCtte..."
+  abschlussText: "Herzlichen Gl\xFCckwunsch. Du hast es geschafft, die Ausgangst\xFCre
+    hat sich ge\xF6ffnet. Jetzt kannst Du zur Gl\xFChweinh\xFCtte..."
   effectOfOutline: {fileID: 1591683624}
   ausgangstuer_rechts: {fileID: 1295096583}
   dialogZeile: {fileID: 1831813629}
@@ -93445,7 +93446,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56a008b27eae8784b856e2f87bd7d535, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  begruessungsText: Gehe in den ersten Lernraum zu Klassen und finde das Buch!
+  begruessungsText: "Bist du bereit etwas \xFCber CSS Klassen und IDs zu lernen?
+    Dann gehe in den ersten Lernraum zu CSS Klassen und finde erst Buch und dann
+    den Computer!"
   lernraumName: Lernraum Klassen in CSS
   startPunkte: 0
   maxPunkte: 2
@@ -96607,7 +96610,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.19350003, y: 0.52000004}
   m_AnchorMax: {x: 0.804, y: 0.8912499}
-  m_AnchoredPosition: {x: -70.99994, y: -30.40384}
+  m_AnchoredPosition: {x: -70.99997, y: -30.403809}
   m_SizeDelta: {x: 3, y: -1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2032157418
@@ -99830,8 +99833,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveSpeed: 2
   SprintSpeed: 5.335
-  RotationSmoothTime: 0.066
+  RotationSmoothTime: 0.0393
   SpeedChangeRate: 10
+  Sensitivity: 0.2
   JumpHeight: 1.2
   Gravity: -15
   JumpTimeout: 0.3
